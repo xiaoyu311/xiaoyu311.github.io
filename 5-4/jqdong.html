@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		border: 0;
+		padding: 0;
+		margin: 0;
+	}
+		.show{
+			width: 500px;
+			overflow: hidden;
+			margin: 0 auto;
+			position: relative;
+		}
+		.pic{
+			width: 2500px;
+		}
+		img{
+			width: 500px;
+			display: block;
+			float: left;
+		}
+		ul{
+			list-style: none;
+			position: absolute;
+			top: 230px;
+			left: 0px;
+
+		}
+		ul li{
+			float: left;
+
+		}
+		ul li a{
+			display: block;
+			text-align: center;
+			line-height: 50px;
+			text-decoration: none;
+			background-color: pink;
+			font-size: 20px;
+			font-weight: bolder;
+			width: 50px;
+			border-radius: 50%;
+			color: green;
+			margin-left: 42px;
+		}
+		.active{
+			background-color: #000;
+			color: #fff;
+		}
+		.box{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+		.bg{
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+	<div class="show">
+		<div class="pic">
+			<img src="images/1.jpg" alt="" title="捕鱼">
+			<img src="images/2.jpg" alt="" title="辛德拉">
+			<img src="images/3.jpg" alt="" title="孙悟空">
+			<img src="images/4.jpg" alt="" title="猪妹">
+			<img src="images/5.jpg" alt="" title="哈撒">
+		</div>
+		<ul>
+			<li><a class="active" href="#">哈</a></li>
+			<li><a href="#">哈</a></li>
+			<li><a href="#">哈</a></li>
+			<li><a href="#">哈</a></li>
+			<li><a href="#">哈</a></li>
+		</ul>
+	</div>
+	<div class="box"></div>
+	<input type="button" value="刘春雨">
+	<script src="jquery-3.0.0.js"></script>
+	<script>
+		$("a").click(function(){
+			var ind=$(this).parent().index()
+			var x=ind*-500 + "px"
+			// $(".pic").css("margin-left",x)
+			// $(this).css({"background-color":"red","color":"white"})
+			// $(this).parent().siblings().find("a").css({"background-color":"pink","color":"green"})
+			$(".pic").stop().animate({"margin-left":x},500)
+			$(this).addClass("active");
+			$(this).parent().siblings().children().removeClass("active");
+			return false;
+			});
+			$("input:button").click(function(){
+				$(".box").toggleClass("bg");
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		img{
+			width: 500px;
+		}
+		ul{
+			list-style: none;
+		}
+		ul li{
+			float: left;
+			margin-left: 10px;
+		}
+		ul li a{
+			text-decoration: none;
+			color: pink;
+			display: block;
+			width: 100px;
+			line-height: 30px;
+			text-align: center;
+			background-color: red;
+			border: 2px solid #000;
+		}
+	</style>
+</head>
+<body>
+		<img src="images/1.jpg" alt="" title="辛德拉">
+		<ul>
+				<li><a href="images/1.jpg">1</a></li>
+				<li><a href="images/2.jpg">2</a></li>
+				<li><a href="images/3.jpg">3</a></li>
+				<li><a href="images/4.jpg">4</a></li>
+			</ul>
+	<script src="jquery-3.0.0.js"></script>
+	<script>
+		$("a").click(function(){
+			var picSrc=$(this).attr("href");
+			$("img").attr("src",picSrc);
+			// $("a").css({"background-color":"red","color":"pink"})
+			// $(this).css({"background-color":"black","color":"green"})
+			// // console.log(picSrc)
+			// $(this).css({"background-color":"black","color":"green"})
+			// $(this).parent().siblings().find("a").css({"background-color":"red","color":"pink"})
+			return false;
+		})
+	</script>
+</body>
+</html>
