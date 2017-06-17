@@ -146,43 +146,6 @@
 	<script src="js/touch.js"></script>
 	<script src="js/swiper-3.4.2.min.js"></script>
 	<script>
-	//1.addClass
-	// 	function addClass(obj,className){
-	// 		var old = obj.getAttribute("class");
-	// 		if (old == null) {
-	// 			obj.setAttribute("class",className)
-				
-	// 		}else{
-	// 			var arr = old.split(" ")
-	// 			var state = true;
-	// 			for (var i = 0; i < arr.length; i++) {
-	// 				if(arr[i]==className){
-	// 					state = false;
-	// 				}
-	// 			}
-	// 			if (state==true) {
-	// 				var newName = old + " " + className;
-	// 				obj.setAttribute("class",newName)
-	// 			}
-	// 		}
-	// 	}
-	// //2.removeClass
-	// 	function removeClass(obj,className){
-	// 		var old = obj.getAttribute("class");
-	// 		if (old != null) {
-	// 			var arr = old.split(" ");
-	// 			var newArr = arr.filter(function(item){
-	// 				return item != className;
-	// 			})
-	// 				newName = newArr.join(" ");
-	// 			if (newArr.length == 0) {
-	// 				obj.removeAttribute("class");
-	// 			}else{
-	// 				obj.setAttribute("class",newName)
-	// 			}
-	
-	// 		}
-	// 	}
 		var mySwiper = new Swiper('.swiper-container', {
 			autoplay: 1000,
 			autoplayDisableOnInteraction : false,
@@ -235,7 +198,7 @@
 			$(this).parent().parent().find(".show").children(".show_one").eq(0).clone().appendTo(show);
 		})
 		$("footer ul li").eq(3).tap(function(){
-			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/dingdanliebiao.html"
+			location.href = "https://xiaoyu311.github.io/pages/dingdanliebiao.html"
 		})
 	</script>
 </body>
