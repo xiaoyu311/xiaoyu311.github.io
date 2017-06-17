@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #45afce;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+nav ul .fanhui{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+nav ul .name{
+	width: 4.4rem;
+}
+nav ul .name h3{
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+}
+nav ul .more{
+	width: 1rem;
+	font-size: 0.24rem;
+	line-height: 0.88rem;
+}
+.chenggong{
+	width: 6.4rem;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.chenggong div{
+	width: 0.4rem;
+	background-color: #4cc4ec;
+	border-radius: 0.2rem;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.2rem;
+}
+.chenggong div span{
+	display: block;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+}
+.chenggong p{
+	width: 1rem;
+	color: #4cc4ec;
+	font-size: 0.22rem;
+	float: left;
+	margin-left: 0.5rem;
+	line-height: 0.8rem;
+}
+.main{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.main ul{
+	width: 5.8rem;
+	margin: 0 auto;
+	list-style: none;
+	border-bottom: 1px dashed #ccc;
+}
+.main ul li{
+	overflow: hidden;
+}
+.main ul li span{
+	display: block;
+	font-size: 0.22rem;
+	line-height: 0.7rem;
+}
+.main ul li span:first-child{
+	float: left;
+}
+.main ul li span:last-child{
+	float: right;
+}
+.main .wu{
+	border: 0;
+}
+footer{
+	width: 6.4rem;
+	background-color: #f6f6f6;
+	overflow: hidden;
+	margin-top: 0.3rem;
+}
+footer p{
+	width: 5.6rem;
+	margin: 0 auto;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+footer span{
+	display: block;
+	margin: 0 auto;
+	width: 5.6rem;
+	border: 2px solid #eaeaea;
+	color: #34b8e0;
+	font-size: 0.24rem;
+	line-height: 0.7rem;
+	text-align: center;
+	margin-bottom: 0.7rem;
+}

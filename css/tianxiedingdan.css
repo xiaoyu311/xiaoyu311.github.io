@@ -1,0 +1,300 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #45afce;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+nav ul .fanhui{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+nav ul .name{
+	width: 4.4rem;
+}
+nav ul .name h3{
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+}
+nav ul .more{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+.zijia{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.zijia p{
+	width: 6.4rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+}
+.data{
+	width: 6.4rem;
+	background-color: #ededed;
+	overflow: hidden;
+}
+.data .xianlu{
+	width: 6rem;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 0.2rem;
+	padding-bottom: 1rem;
+}
+.data .xianlu ul{
+	list-style: none;
+	width: 6rem;
+	padding-bottom: 0.2rem;
+}
+.data .xianlu ul li{
+	font-size: 0.2rem;
+	line-height: 0.5rem;
+	width: 5.4rem;
+	margin: 0 auto;
+}
+.data .xianlu ul li:first-child{
+	width: 6rem;
+	font-size: 0.22rem;
+	font-weight: 600;
+	border-bottom: 1px solid #ccc;
+}
+.data .xianlu ul li:first-child span{
+	color: #45afce;
+	font-size: 0.3rem;
+	font-weight: 800;
+}
+.data .xianlu ul .xiugai img{
+	display: block;
+	float: right;
+	width: 0.7rem;
+	margin-right: 0.7rem;
+}
+.data .xianlu ul .home span{
+	display: block;
+	float: left;	
+}
+.data .xianlu ul .home a{
+	display: block;
+	width: 0.3rem;
+	text-indent: 0;
+	text-align: center;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	float: left;
+	color: #7fd0e7;
+	margin-top: 0.1rem;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+.data .xianlu ul .home input{
+	display: block;
+	outline: none;
+	width: 0.5rem;
+	line-height: 0.27rem;
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	text-align: center;
+	border: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;	
+}
+.data .xianlu ul .tongyi p{
+	width: 4.1rem;
+	float: right;
+}
+.data .xianlu ul .tongyi p input{
+	display: block;
+	float: left;
+	margin-top: 8px;
+}
+.data .xianlu ul .tongyi p span{
+	display: block;
+	float: left;
+	text-indent: 0;
+}
+.data .feiyong{
+	padding-bottom: 0;
+}
+.data .feiyong ul li:nth-child(2){
+	font-size: 0.22rem;
+	font-weight: 600;
+}
+.data .lianxiren{
+	padding-bottom: 0;
+}
+.data .lianxiren ul li{
+	width: 5.4rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+}
+.data .lianxiren ul li span{
+	color: #45afce;
+}
+.data .lianxiren ul li input{
+	outline: none;
+	border: none;
+	font-size: 0.2rem;
+}
+.data .lianxiren ul li:nth-child(3) input:nth-child(2){
+	margin-left: 1rem;
+}
+.data .youke{
+	padding-bottom: 0;
+}
+.data .youke ul li{
+	border-bottom: 1px solid #ccc;
+}
+.data .youke ul li input{
+	outline: none;
+	border: none;
+	font-size: 0.2rem;
+}
+.data .youke ul li select{
+	outline: none;
+	border: none;
+	margin-top: 8px;
+	border: 1px solid #ccc;
+	font-size: 0.22rem;
+}
+.data .youke ul li:nth-child(4){
+	border: 0;
+}
+.data .youke ul li:nth-child(4) i{
+	display: block;
+	width: 0.3rem;
+	font-size: 0.3rem;
+	margin-left:2.4rem;
+}
+.data .baoxian{
+	padding-bottom: 0;
+}
+.data .baoxian ul li p:first-child{
+	text-indent: 0.4rem;
+	font-size: 0.24rem;
+}
+.data .baoxian ul li p:first-child a{
+	text-decoration: none;
+	display: block;
+	font-size: 0.22rem;
+	float: right;
+	color: #767575;
+}
+.data .baoxian ul li p span:nth-child(1){
+	float: left;
+	text-indent: 0.4rem;
+	display: block;
+	font-size: 0.24rem;
+}
+.data .baoxian ul li p span:nth-child(2){
+	float: left;
+	display: block;
+	font-size: 0.24rem;
+}
+.data .baoxian ul li p span:nth-child(3){
+	float: right;
+	display: block;
+	font-size: 0.22rem;
+	color: #767575;
+}
+.data .baoxian ul li p span:nth-child(4){
+	float: right;
+	display: block;
+	font-size: 0.22rem;
+	color: #f8a951;
+}
+.data .baoxian ul li p span:nth-child(5){
+	float: right;
+	display: block;
+	font-size: 0.22rem;
+	color: #f8a951;
+}
+.data .baoxian ul li:nth-child(2){
+	border-bottom: 1px solid #ccc;
+}
+.data .click{
+	width: 6rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.data .click p{
+	font-size: 0.2rem;
+	line-height: 0.6rem;
+	text-align: center;
+}
+footer{
+	width: 6.4rem;
+	background: #fff;
+}
+footer p{
+	font-size: 0.24rem;
+	color: #f1a960;
+	line-height: 1rem;
+}
+footer p span{
+	display: block;
+	float: left;
+}
+footer p span:first-child{
+	margin-left: 0.2rem;
+}
+footer p a{
+	display: block;
+	float: right;
+	width: 2.4rem;
+	margin-right: 0.3rem;
+	color: #fff;
+	background-color: #41bde2;
+	line-height: 0.65rem;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 0.18rem;
+	border-radius: 5px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}

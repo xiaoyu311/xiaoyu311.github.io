@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>订单列表</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>
+	<link rel="stylesheet" href="../css/dingdanliebiao.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5zmjhl00vi2uik9/iconfont.css">
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<a href="javascript:void(0)"><i class="iconfont icon-fanhui"></i></a>
+			<span>订单列表</span>
+		</nav>
+		<div class="fenlei">
+			<ul class="clearfix">
+				<li><img class="one bg" src="../images/time_APP_03.jpg" alt="">全部分类</li>
+				<li><img class="two bg" src="../images/time_APP_03.jpg" alt="">按时间排序</li>
+			</ul>
+		</div>
+		<div class="paixu bg">
+			<div class="one">
+				<p>按下单时间排序</p>
+				<p>按出行时间排序</p>
+			</div>
+			<div class="two"></div>
+		</div>
+		<div class="paixu paixu_two bg">
+			<div class="one">
+				<p>全部分类</p>
+				<p>待出行</p>
+				<p>待支付</p>
+				<p>待评价</p>
+				<p>已取消</p>
+			</div>
+			<div class="two"></div>
+		</div>
+		<div class="dingdan">
+			<div class="show">
+				<div class="dingdan_one">
+					<p class="dingdanhao">
+						<span>订单号：</span>
+						<span>7195351</span>
+						<span>丨待出行&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+						<span>预定时间：</span>
+						<span>2015-12-29</span>
+						<span>12：04：00</span>
+					</p>
+					<p class="chunjie">
+						[春节]<魅力湘西过大年>湘西年夜饭，北京直飞
+					</p>
+					<p class="money">
+						<span>自驾游&nbsp&nbsp&nbsp&nbsp</span>
+						<span>2016-02-07</span>
+						<span>出发&nbsp&nbsp&nbsp&nbsp</span>
+						<span class="one">￥</span>
+						<span class="two">4580</span>
+					</p>
+				</div>
+				<div class="quxiao clearfix">
+					<span class="one">待出行</span>
+					<span class="two">取消</span>
+				</div>
+			</div>
+			<div class="show">
+				<div class="dingdan_one">
+					<p class="dingdanhao">
+						<span>订单号：</span>
+						<span>7195351</span>
+						<span>丨待出行&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+						<span>预定时间：</span>
+						<span>2015-12-29</span>
+						<span>12：04：00</span>
+					</p>
+					<p class="chunjie">
+						[5月]<魅力湘西过大年>湘西年夜饭，北京直飞
+					</p>
+					<p class="money">
+						<span>自驾游&nbsp&nbsp&nbsp&nbsp</span>
+						<span>2016-02-07</span>
+						<span>出发&nbsp&nbsp&nbsp&nbsp</span>
+						<span class="one">￥</span>
+						<span class="two">4580</span>
+					</p>
+				</div>
+				<div class="quxiao clearfix">
+					<span class="one">待支付</span>
+					<span class="two">付款</span>
+				</div>
+			</div>
+			<div class="show">
+				<div class="dingdan_one">
+					<p class="dingdanhao">
+						<span>订单号：</span>
+						<span>7195351</span>
+						<span>丨待出行&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+						<span>预定时间：</span>
+						<span>2015-12-29</span>
+						<span>12：04：00</span>
+					</p>
+					<p class="chunjie">
+						[4月]<魅力湘西过大年>湘西年夜饭，北京直飞
+					</p>
+					<p class="money">
+						<span>自驾游&nbsp&nbsp&nbsp&nbsp</span>
+						<span>2016-02-07</span>
+						<span>出发&nbsp&nbsp&nbsp&nbsp</span>
+						<span class="one">￥</span>
+						<span class="two">4580</span>
+					</p>
+				</div>
+				<div class="quxiao clearfix">
+					<span class="one">待评价</span>
+					<span class="two">点击</span>
+				</div>
+			</div>
+			<div class="show">
+				<div class="dingdan_one">
+					<p class="dingdanhao">
+						<span>订单号：</span>
+						<span>7195351</span>
+						<span>丨待出行&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+						<span>预定时间：</span>
+						<span>2015-12-29</span>
+						<span>12：04：00</span>
+					</p>
+					<p class="chunjie">
+						[5月]<魅力湘西过大年>湘西年夜饭，北京直飞
+					</p>
+					<p class="money">
+						<span>自驾游&nbsp&nbsp&nbsp&nbsp</span>
+						<span>2016-02-07</span>
+						<span>出发&nbsp&nbsp&nbsp&nbsp</span>
+						<span class="one">￥</span>
+						<span class="two">4580</span>
+					</p>
+				</div>
+				<div class="quxiao clearfix">
+					<span class="one">已取消</span>
+					<span class="two">查看</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../js/zepto.main.js"></script>
+	<script src="../js/touch.js"></script>
+	<script>
+	//1.addClass
+		function addClass(obj,className){
+			var old = obj.getAttribute("class");
+			if (old == null) {
+				obj.setAttribute("class",className)
+				
+			}else{
+				var arr = old.split(" ")
+				var state = true;
+				for (var i = 0; i < arr.length; i++) {
+					if(arr[i]==className){
+						state = false;
+					}
+				}
+				if (state==true) {
+					var newName = old + " " + className;
+					obj.setAttribute("class",newName)
+				}
+			}
+		}
+	//2.removeClass
+		function removeClass(obj,className){
+			var old = obj.getAttribute("class");
+			if (old != null) {
+				var arr = old.split(" ");
+				var newArr = arr.filter(function(item){
+					return item != className;
+				})
+					newName = newArr.join(" ");
+				if (newArr.length == 0) {
+					obj.removeAttribute("class");
+				}else{
+					obj.setAttribute("class",newName)
+				}
+	
+			}
+		}
+		$(".fenlei ul li").eq(0).tap(function(){
+			removeClass(document.querySelector(".fenlei ul li .one"),"bg");
+			addClass(document.querySelector(".fenlei ul li .two"),"bg");
+			removeClass(document.querySelector(".paixu"),"bg");
+			addClass(document.querySelector(".paixu_two"),"bg");
+		})
+		$(".fenlei ul li").eq(1).tap(function(){
+			removeClass(document.querySelector(".fenlei ul li .two"),"bg");
+			addClass(document.querySelector(".fenlei ul li .one"),"bg");
+			addClass(document.querySelector(".paixu"),"bg");
+			removeClass(document.querySelector(".paixu_two"),"bg");
+		})
+		$("nav a").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/index.html"
+		})
+		$(".paixu .two").tap(function(){
+			console.log(1)
+			addClass(document.querySelector(".paixu"),"bg")
+		})
+		$(".paixu .two").tap(function(){
+			console.log(1)
+			addClass(document.querySelector(".paixu_two"),"bg")
+		})
+		$(".show").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/dingdanxiangqing.html"
+		})
+	</script>
+</body>
+</html>

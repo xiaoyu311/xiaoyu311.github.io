@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>常用游客页</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>
+	<link rel="stylesheet" type="text/css" href="../css/changyongyouke.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5zmjhl00vi2uik9/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_2fzkowjz0pet57b9/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5jlx5l8ay06bt9/iconfont.css">
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<ul class="clearfix">
+				<li class="fanhui"><i class="iconfont icon-fanhui"></i></li>
+				<li class="name">
+					<h3>选择常用游客</h3>
+				</li>
+				<li class="more">确定</li>
+			</ul>
+		</nav>
+		<div class="select">
+			<p>已选择<span>0</span>/<span>3</span>旅客</p>
+		</div>
+		<div class="main">
+			<div class="liexiang clearfix">
+				<a href="javascript:void(0)"><i class="iconfont icon-xiugai"></i></a>
+				<span>xiaoyu</span>
+				<div class="click"><div class="bg"></div></div>
+			</div>
+			<div class="liexiang clearfix">
+				<a href="javascript:void(0)"><i class="iconfont icon-xiugai"></i></a>
+				<span>xiaoyu</span>
+				<div class="click"><div class="bg"></div></div>
+			</div>
+			<div class="liexiang clearfix">
+				<a href="javascript:void(0)"><i class="iconfont icon-xiugai"></i></a>
+				<span>xiaoyu</span>
+				<div class="click"><div class="bg"></div></div>
+			</div>
+		</div>
+		<footer>
+			<p><i class="iconfont icon-gengduo-copy"></i>&nbsp&nbsp&nbsp<span>添加常用游客</span></p>
+		</footer>
+	</div>
+	<script src="../js/zepto.main.js"></script>
+	<script src="../js/touch.js"></script>
+	<script type="text/javascript">
+		//1.addClass
+	function addClass(obj,className){
+			var old = obj.getAttribute("class");
+			if (old == null) {
+				obj.setAttribute("class",className)
+				
+			}else{
+				var arr = old.split(" ")
+				var state = true;
+				for (var i = 0; i < arr.length; i++) {
+					if(arr[i]==className){
+						state = false;
+					}
+				}
+				if (state==true) {
+					var newName = old + " " + className;
+					obj.setAttribute("class",newName)
+				}
+			}
+		}
+	//2.removeClass
+	function removeClass(obj,className){
+			var old = obj.getAttribute("class");
+			if (old != null) {
+				var arr = old.split(" ");
+				var newArr = arr.filter(function(item){
+					return item != className;
+			})
+			newName = newArr.join(" ");
+			if (newArr.length == 0) {
+				obj.removeAttribute("class");
+			}else{
+				obj.setAttribute("class",newName)
+			}
+		}
+	}
+		$("nav .fanhui").tap(function(){
+			location.href ="C:/Users/xiaoyu/Desktop/自驾游项目/pages/querendingdan.html"
+		})
+		$(".click").tap(function(){
+			removeClass(this.querySelector("div"),"bg")
+		})
+		$("nav .more").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/querendingdan.html"
+		})
+		$("footer").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/tianjiayouke.html"
+		})
+	</script>
+</body>
+</html>

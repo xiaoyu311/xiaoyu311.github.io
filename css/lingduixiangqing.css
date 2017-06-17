@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #40b7db;
+	position: relative;
+}
+nav a{
+	position: absolute;
+	font-size: 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	top: 7px;
+	left: 0.3rem;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+nav span{
+	display: block;
+	width: 6.4rem;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.35rem;
+	color: #fff;
+}
+.tese{
+	width: 6.4rem;
+	background-color: #f5f5f5;
+}
+.tese div{
+	width: 2.6rem;
+	height: 1px;
+	background-color: #ccc;
+	margin-top: 0.35rem;
+	float: left;
+}
+.tese p{
+	width: 1.2rem;
+	text-align: center;
+	float: left;
+	font-size: 0.24rem;
+	line-height: 0.7rem;
+}
+.introduce{
+	width: 6.4rem;
+}
+.introduce .introduce_int{
+	width: 5.5rem;
+	margin: 0 auto;
+}
+.introduce .introduce_int img{
+	display: block;
+	width: 1.45rem;
+	float: left;
+	margin-top: 0.17rem;
+}
+.introduce .introduce_int h3{
+	width: 3rem;
+	font-size: 0.28rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.6rem;
+	line-height: 0.6rem;
+	border-bottom: 1px dotted #ccc;
+}
+.introduce .introduce_int p{
+	font-size: 0.24rem;
+	width: 5.5rem;
+	float: left;
+	line-height: 0.4rem;
+	padding-top: 0.2rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.3rem;
+	padding-bottom: 0.2rem;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.show{
+	width: 6.4rem;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.show .pic{
+	width: 6.2rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	position: relative;
+}
+.show .pic img{
+	width: 6.2rem;
+	display: block;
+}
+.show .pic h3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6.2rem;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	background-color: rgba(109,137,162,0.7);
+	text-indent: 0.3rem;
+	color: #fff;
+}
+.show .pic h4{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 6.2rem;
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	background-color: rgba(109,137,162,0.7);
+	text-indent: 0.3rem;
+	color: #fff;
+	margin-top: 1rem;
+}
+.show .pic p{
+	width: 1.2rem;
+	border: 4px solid #fff;
+	background-color: #ed6215;
+	position: absolute;
+	border-top-left-radius: 0.65rem;
+	border-top-right-radius: 0.65rem;
+	bottom: 0rem;
+	right: 0rem;
+	padding-top: 0.3rem;
+	color: #fff;
+	overflow: hidden;
+}
+.show .pic p span:nth-child(1){
+	font-size: 0.2rem;
+	display: block;
+	margin-top: 0.1rem;
+	float: left;
+}
+.show .pic p span:nth-child(2){
+	font-size: 0.28rem;
+	display: block;
+	float: left;
+}
+.show .pic p span:nth-child(3){
+	font-size: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 5px;
+}
+footer .gengduo{
+	font-size: 0.17rem;
+	width: 6.4rem;
+	background-color: #f1f1f1;
+}
+footer .gengduo a{
+	display: block;
+	width: 6.4rem;
+	color: #f15f0e;
+	text-align: center;
+	text-decoration: none;
+	line-height: 0.8rem;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+footer .gengduo a i{
+	margin-left: 8px;
+}

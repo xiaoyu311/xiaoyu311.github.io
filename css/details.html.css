@@ -1,0 +1,487 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #40b7db;
+	position: relative;
+}
+nav a{
+	position: absolute;
+	font-size: 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	top: 7px;
+	left: 0.3rem;
+}
+nav span{
+	display: block;
+	width: 6.4rem;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.35rem;
+	color: #fff;
+}
+.banner .top{
+	background-image: url(../images/details_banner_APP_16.jpg);
+	width: 6.4rem;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+.banner .top p{
+	font-size: 0.32rem;
+	color: #fff;
+	text-indent: 0.3rem;
+	line-height: 0.5rem;
+	background-color: rgba(161,126,116,0.7);
+	margin-top: 3.08rem;
+}
+.banner .bottom{
+	position: relative;
+}
+.banner .bottom p{
+	text-indent: 0.3rem;
+	line-height: 0.5rem;
+	font-size: 0.32rem;
+	color: #000;
+	background-color: #fff;
+}
+.banner .bottom a{
+	text-decoration: none;
+	display: block;
+	width: 0.7rem;
+	text-align: center;
+	font-size: 0.5rem;
+	color: #ededed;
+	line-height: 0.7rem;
+	position: absolute;
+	top:0.2rem;
+	right: 0rem;
+	border-left: 1px solid #ededed;
+}
+.banner .bottom .yuan{
+	font-size: 0.12rem;
+	color: #ee8a1d;
+}
+.banner .bottom .num{
+	color: #ee8a1d;
+}.banner .bottom span:last-child{
+	font-size: 0.12rem;
+	color: #eaeaea;
+}
+.tour{
+	width: 6.4rem;
+	background-image: url(../images/details_bg_APP_03.jpg);
+	background-repeat: repeat-x ;
+	background-color: #e5e5e5;
+	overflow: hidden;
+}
+.tour .tour_click{
+	width: 6.2rem;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 0.4rem;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.35rem;
+}
+.tour .tour_click h3{
+	font-size: 0.26rem;
+	text-indent: 0.2rem;
+	padding-top: 0.2rem;
+}
+.tour .tour_click p{
+	font-size: 0.4rem;
+	text-align: right;
+	color: #e1e1e1;
+	padding-right: 0.2rem;
+}
+.tour .tour_click span{
+	display: block;
+	width: 0.65rem;
+	border:1px solid #ededed;
+	line-height: 0.3rem;
+	font-size: 0.2rem;
+	float: left;
+	margin-left: 0.2rem;
+	text-align: center;
+}
+.summary{
+	width: 6.4rem;
+	padding-bottom: 0.4rem;
+}
+.march{
+	list-style: none;
+	width: 6.4rem;
+	background-color: #fff;
+}
+.march>li{
+	width: 1.7rem;
+	float: left;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	border-bottom: 1px solid #ccc;
+}
+.march>li:nth-child(2){
+	width: 0.65rem;
+	line-height: 0.6rem;
+}
+.march>li:nth-child(4){
+	width: 0.65rem;
+	height: 0.6rem;
+}
+.tese{
+	width: 6.4rem;
+	background-color: #f5f5f5;
+	margin-top: 0.3rem;
+	margin-bottom: 0.2rem;
+}
+.tese div{
+	width: 2.6rem;
+	height: 1px;
+	background-color: #ccc;
+	margin-top: 0.23rem;
+	float: left;
+}
+.tese p{
+	width: 1.2rem;
+	text-align: center;
+	float: left;
+	font-size: 0.24rem;
+	line-height: 0.46rem;
+}
+.show .xiangqing{
+	width: 6.4rem;
+	border-bottom: 0.2rem solid #ccc;
+	padding-bottom: 0.2rem;
+}
+.show .xiangqing ul{
+	list-style: none;
+	width: 5.8rem;
+	margin: 0 auto;
+}
+.show .xiangqing ul li{
+	overflow: hidden;
+}
+.show .xiangqing ul li span{
+	font-size: 0.22rem;
+	line-height: 0.4rem;
+	display: block;
+	float: left;
+}
+.show .xiangqing ul li span:first-child{
+	width: 1.4rem;
+	font-weight: 600;
+}
+.show .xiangqing ul li span:last-child{
+	width: 4.4rem;
+}
+.show .xiangqing>img{
+	display: block;
+	width: 5.8rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.jianjie{
+	width: 5.7rem;
+	margin-left: 0.4rem;
+	border-left: 1px dashed #ccc;
+}
+.jianjie .tianshu{
+	width: 5.5rem;
+	position: relative;
+	margin-left: 0.2rem;
+}
+.jianjie .tianshu h3{
+	width: 4.6rem;
+	color: #10beed;
+	font-size: 0.3rem;
+	line-height: 0.45rem;
+	border-bottom: 1px solid #10beed;
+}
+.jianjie .tianshu p{
+	overflow: hidden;
+	font-size: 0.22rem;
+	color: #7a6161;
+	line-height: 0.34rem;
+	margin-bottom: 0.3rem;
+}
+.jianjie .tianshu p span{
+	display: block;
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	width: 2.3rem;
+	line-height: 0.65rem;
+	border-bottom: 1px dashed #ccc;
+
+}
+.jianjie .tianshu img:first-child{
+	position: absolute;
+	width: 0.2rem;
+	left: -0.3rem;
+}
+.jianjie .tianshu img:nth-child(2){
+	position: absolute;
+	width: 0.1rem;
+	top: 0.7rem;
+	left: -0.25rem;
+}
+.jianjie .tianshu img{
+	display: block;
+	width: 5.5rem;
+}
+.jianjie .tianshu img:last-child{
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.xuzhi{
+	width: 6.4rem;
+}
+.xuzhi ul{
+	width: 5.9rem;
+	margin: 0 auto;
+	list-style: none;
+	margin-top: 0.2rem;
+}
+.xuzhi ul li{
+	font-size: 0.26rem;
+	line-height: 0.35rem;
+	color: #696969;
+}
+.xuzhi ul:first-child li{
+	color: #000;
+}
+.xuzhi ul li:first-child{
+	color: #000;
+}
+.nanjingzhan{
+	width: 6.4rem;	
+}
+.nanjingzhan p{
+	width: 5.9rem;
+	font-size: 0.22rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nanjingzhan p:first-child{
+	border-bottom: 1px dashed #ccc;
+	line-height: 0.5rem;
+}
+.nanjingzhan p:first-child span:first-child{
+	display: block;
+	float: left;
+}
+.nanjingzhan p:first-child span:last-child{
+	display: block;
+	float: right;
+	font-size: 0.5rem;
+	color: #ccc;
+}
+.nanjingzhan p img{
+	display: block;
+	width: 1.1rem;
+	float: left;
+	margin-top: 5px;
+}
+.nanjingzhan p:last-child span{
+	width: 4.8rem;
+	float: right;
+	margin-top: 0.4rem;
+}
+.pinglun{
+	width: 5.9rem;
+	margin: 0 auto;
+}
+.pinglun ul {
+	overflow: hidden;
+	list-style: none;
+	margin-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+.pinglun ul:first-child li{
+	font-size: 0.22rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	float: left;
+}
+.pinglun ul li i{
+	color: yellow;
+}
+.pinglun ul .tebie{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.pinglun ul:first-child{
+	border-bottom: 1px solid #ccc;
+}
+.pinglun ul:nth-child(2){
+	border-bottom: 1px dashed #ccc;
+}
+.pinglun ul:nth-child(2) li{
+	float: left;
+	font-size: 0.2rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	line-height: 0.5rem;
+}
+.pinglun ul:nth-child(2) li img{
+	display: block;
+	float: left;
+	width: 0.5rem;
+
+}
+.pinglun ul:nth-child(3){
+	padding-bottom: 0;
+}
+.pinglun ul:nth-child(3) li{
+	font-size: 0.22rem;
+	line-height: 0.4rem;
+}
+.pinglun ul:nth-child(3) li img:last-child{
+	margin-left: 10px;
+}
+.summary .pinglun .none{
+	border-bottom:0;
+	margin: 0;
+	padding: 0;
+}
+.pinglun p{
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	padding-top: 10px;
+}
+.pinglun .chizhu li{
+	list-style: none;
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	margin-top: 0.2rem;
+	overflow: hidden;
+}
+.pinglun .chizhu li span{
+	display: block;
+	float: left;
+}
+.pinglun .chizhu li span:first-child{
+	width: 1.2rem;
+}
+.pinglun .chizhu li span:last-child{
+	width: 4.7rem;
+}
+.pinglun .img img{
+	display: block;
+	float: left;
+}
+.pinglun .img img:first-child{
+	margin-left: 1.3rem;
+}
+.pinglun .img img:last-child{
+	margin-left: 5px;
+}
+.huifu{
+	width: 6.4rem;
+	background-color: #f4f4f4;
+}
+.huifu p:first-child{
+	font-size: 0.22rem;
+	color: #f2ab9a;
+	text-indent: 0.35rem;
+	line-height: 0.5rem;
+}
+.huifu p:last-child{
+	font-size: 0.22rem;
+	padding-left: 2.3rem;
+	padding-right: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+footer div{
+	height: 1rem;
+	margin-top: 0.2rem;
+	border-top: 5px solid #ccc;
+}
+.dingwei{
+	width: 6.4rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.dingwei ul{
+	list-style: none;
+}
+.dingwei ul li{
+	float: left;
+}
+.dingwei ul li:nth-child(1){
+	width: 1.58rem;
+}
+.dingwei ul li:nth-child(2){
+	width: 1.58rem;
+}
+.dingwei ul li:nth-child(3){
+	width: 3.2rem;
+}
+
+.dingwei ul li a{
+	text-decoration: none;
+	font-size: 0.3rem;
+	color: #726e6e;
+	text-align: center;
+	line-height: 0.4rem;
+	display: block;
+	width: 1.6rem;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+.dingwei ul li a:first-child{
+	padding-top: 0.1rem;
+}
+.dingwei ul li a:last-child{
+	padding-bottom: 0.1rem;
+}
+.dingwei ul li:last-child a{
+	width: 3.2rem;
+	padding-left: 5px;
+	line-height: 0.8rem;
+	background-color: #50bbdb;
+}
+.dingwei ul li:first-child{
+	border-right: 1px solid #ccc;
+}
+.march .bg{
+	color: #50bbdb;
+	border-bottom: 1px solid #50bbdb;
+}

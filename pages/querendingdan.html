@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>确认订单页</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>
+	<link rel="stylesheet" type="text/css" href="../css/querendingdan.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5zmjhl00vi2uik9/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5jlx5l8ay06bt9/iconfont.css">
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<ul class="clearfix">
+				<li class="fanhui"><i class="iconfont icon-fanhui"></i></li>
+				<li class="name">
+					<h3>确认订单</h3>
+				</li>
+			</ul>
+		</nav>
+		<div class="zijia">
+			<p>【爱自驾】<云南落地自驾行摄7天之旅>，各各地飞往历<br>史文化名城云南昆明集合。</p>
+		</div>
+		<div class="data">
+			<div class="xianlu">
+				<ul>
+					<li><span>丨</span>线路信息</li>
+					<li>自驾团：
+						<span>云南落地自驾行摄之旅</span>
+					</li>
+					<li class="xiugai">出游日期：
+						<span>2016-01-27</span>
+						<img src="../images/dingdantianxie.jpg">
+					</li>
+					<li>出行人数：
+						<span>2</span>成人，<span>0</span>儿童
+					</li>
+					<li>
+						房间：<span>2</span>人间，愿意拼房
+					</li>
+				</ul>
+			</div>
+			<div class="xianlu lianxiren">
+				<ul>
+					<li><span>丨</span>联系人信息</li>
+					<li>姓名：<span>罗校校</span></li>
+					<li>性别：<span>女</span></li>
+					<li>手机号码：<span>183389785116</span></li>
+					<li>邮箱：<span>616872075Qqq.com</span></li>
+				</ul>
+			</div>
+			<div class="xianlu youke">
+				<ul>
+					<li><span>丨</span>游客信息<span class="changyong">常用游客</span></li>
+					<li><span>luoxiaoxiao</span></li>
+					<li><span>luoxiaoxiao</span></li>
+					<li class="tianjia"><i class="iconfont icon-gengduo-copy"></i></li>
+				</ul>
+			</div>
+			<div class="xianlu baoxian">
+				<ul>
+					<li><span>丨</span>保险</li>
+					<li class="clearfix">
+						<p>平安爱自驾境外长线保险<a href="">详情></a></p>
+						<p>
+							<span>2</span>
+							<span>份</span>
+							<span>/一份</span>
+							<span>177</span>
+							<span>￥</span>
+						</p>
+					</li>
+					<li class="clearfix">
+						<p>平安爱自驾境外长线保险<a href="javascript:void(0)">详情></a></p>
+						<p>
+							<span>2</span>
+							<span>份</span>
+							<span>/一份</span>
+							<span>177</span>
+							<span>￥</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="click">
+				<p><input class="input" type="checkbox">以阅读并同意</p>
+			</div>
+		</div>
+		<footer>
+			<p><span>总费用&nbsp&nbsp￥</span><span>5920</span><a class="zhifu" href="javascript:void(0)">确认，去支付</a></p>
+		</footer>
+	</div>
+	<script src="../js/zepto.main.js"></script>
+	<script src="../js/touch.js"></script>
+	<script type="text/javascript">
+		$(".xiugai img").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/tianxiedingdan.html"
+		})
+		$(".youke .changyong").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/changyongyouke.html"
+		})
+		$("footer .zhifu").tap(function(){
+			if (document.querySelector(".click input").checked == true) {
+				location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/zhifufangshi.html"
+			}	
+		})
+		$(".fanhui").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/tianxiedingdan.html"
+		})
+	</script>
+</body>
+</html>

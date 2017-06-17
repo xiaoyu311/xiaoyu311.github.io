@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #45afce;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+nav ul .fanhui{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+nav ul .name{
+	width: 4.4rem;
+}
+nav ul .name h3{
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+}
+nav ul .more{
+	width: 1rem;
+	font-size: 0.24rem;
+	line-height: 0.88rem;
+}
+.xinxi{
+	width: 6.4rem;
+	background-color: #ededed;
+}
+.xinxi ul{
+	width: 6rem;
+	margin: 0 auto;
+	list-style: none;
+}
+.xinxi ul li{
+	width: 6rem;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.xinxi ul li span{
+	display: block;
+	margin-left: 0.35rem;
+	float: left;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+}
+.xinxi ul li input{
+	display: block;
+	width: 3rem;
+	float: right;
+	font-size: 0.24rem;
+	border: 0;
+	background-color: #ededed;
+	line-height: 0.5rem;
+	outline: none;
+}

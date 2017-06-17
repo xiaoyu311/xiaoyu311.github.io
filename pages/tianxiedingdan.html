@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>填写订单页</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>
+	<link rel="stylesheet" type="text/css" href="../css/tianxiedingdan.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5zmjhl00vi2uik9/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_att1p96rhhicz0k9/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5jlx5l8ay06bt9/iconfont.css">
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<ul class="clearfix">
+				<li class="fanhui"><i class="iconfont icon-fanhui"></i></li>
+				<li class="name">
+					<h3>填写订单</h3>
+				</li>
+				<li class="more"><i class="iconfont icon-dianhuazixun"></i></i></li>
+			</ul>
+		</nav>
+		<div class="zijia">
+			<p>【爱自驾】<云南落地自驾行摄7天之旅>，各各地飞往历<br>史文化名城云南昆明集合。</p>
+		</div>
+		<div class="data">
+			<div class="xianlu">
+				<ul>
+					<li><span>丨</span>线路信息</li>
+					<li>自驾团：
+						<span>云南落地自驾行摄之旅</span>
+					</li>
+					<li class="xiugai">出游日期：
+						<span>2016-01-27</span>
+						<img src="../images/dingdantianxie.jpg">
+					</li>
+					<li>出行人数：
+						<span>2</span>成人，<span>0</span>儿童
+					</li>
+					<li class="home">
+						<span>房间：</span>
+						<a class="sub" href="javascript:void(0)">-</a>
+						<input type="text" value="1">
+						<a class="add" href="javascript:void(0)">+</a>
+						(2人间)
+					</li>
+					<li class="tongyi">是否同意拼房：
+						<p>
+							<input type="radio" name="tongyi">
+							<span>我同意</span>
+						</p>
+						<p>
+							<input type="radio" name="tongyi">
+							<span>不同意拼房，愿意支付房差费用￥</span>
+							<span>3500</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="xianlu feiyong">
+				<ul>
+					<li><span>丨</span>费用说明&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp订退规则</li>
+					<li>*+费用包含：</li>
+					<li>*+十多个是法国岁的法国神风怪盗</li>
+					<li>*+感受到是个是发给公司的</li>
+					<li>*+收费的公司是多少是</li>
+					<li>*+美国帝尊酒店住宿</li>
+					<li>*+美国帝尊酒店住宿</li>
+				</ul>
+			</div>
+			<div class="xianlu lianxiren">
+				<ul>
+					<li><span>丨</span>联系人信息</li>
+					<li><span>*</span>姓名：<input type="text" placeholder="必填"></li>
+					<li><span>*</span>性别<input type="radio" name="sex">男<input type="radio" name="sex">女</li>
+					<li><span>*</span>手机号码：<input type="text"></li>
+					<li><span>*</span>邮箱：<input type="text" placeholder="必填，接受合同信息"></li>
+				</ul>
+			</div>
+			<div class="xianlu youke">
+				<ul>
+					<li><span>丨</span>游客信息</li>
+					<li>姓名：<input type="text" placeholder="必填"></li>
+					<li>证件类型：<select name="" id="">
+						<option>身份证</option>
+						<option>护照</option>
+						</select>
+					</li>
+					<li><i class="iconfont jiahao icon-gengduo-copy"></i></li>
+				</ul>
+			</div>
+			<div class="xianlu baoxian">
+				<ul>
+					<li><span>丨</span>保险</li>
+					<li class="clearfix">
+						<p>平安爱自驾境外长线保险<a href="">详情></a></p>
+						<p>
+							<span>2</span>
+							<span>份</span>
+							<span>/一份</span>
+							<span>177</span>
+							<span>￥</span>
+						</p>
+					</li>
+					<li class="clearfix">
+						<p>平安爱自驾境外长线保险<a href="">详情></a></p>
+						<p>
+							<span>2</span>
+							<span>份</span>
+							<span>/一份</span>
+							<span>177</span>
+							<span>￥</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="click">
+				<p><input type="checkbox">以阅读并同意</p>
+			</div>
+		</div>
+		<footer>
+			<p><span>总费用&nbsp&nbsp￥</span><span>5920</span><a class="tijiao" href="javascript:void(0)">提交订单</a></p>
+		</footer>
+	</div>
+	<script src="../js/zepto.main.js"></script>
+	<script src="../js/touch.js"></script>
+	<script type="text/javascript">
+		$("nav ul li").eq(0).tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/baoming.html"
+		})
+		$(".sub").tap(function(){
+			var val = parseFloat(document.querySelector(".home input").value);
+			if (val > 0) {
+				val -= 1;
+			}
+			document.querySelector(".home input").value = val;
+		})
+		$(".add").tap(function(){
+			var val = parseFloat(document.querySelector(".home input").value);
+			val += 1;
+			document.querySelector(".home input").value = val;
+		})
+		$(".jiahao").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/changyongyouke.html"
+		})
+		$(".xiugai img").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/baoming.html"
+		})
+		$(".tijiao").tap(function(){
+			if (document.querySelector(".click input").checked == true) {
+				location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/querendingdan.html"
+			}
+		})
+	</script>
+</body>
+</html>

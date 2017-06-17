@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>报名页</title>
+	<link rel="stylesheet" type="text/css" href="../css/baoming.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_5zmjhl00vi2uik9/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../font/font_qjamhc6eofl84cxr/iconfont.css">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<nav>
+			<a href="javascript:void(0)"><i class="iconfont icon-fanhui"></i></a>
+			<span>北京出发</span>
+		</nav>
+		<div class="banner">
+			<img src="../images/baoming_APP_02.jpg">
+		</div>
+		<div class="bottom clearfix">
+			<div>
+				<p><span class="one">成人</span><span class="two">￥</span><span class="three">5280</span></p>
+				<div class="cheng"><a class="sub" href="javascript:void(0)">-</a><span class="num">2</span><a class="add" href="javascript:void(0)">+</a></div>
+			</div>
+			<div>
+				<p><span class="one">儿童</span><span class="two">￥</span><span class="three">5280</span></p>
+				<div><a class="sub" href="javascript:void(0)">-</a><span class="num">2</span><a class="add" href="javascript:void(0)">+</a></div>
+			</div>
+			<p><i class="iconfont icon-iconfontgantanhao3"></i>日历价格为起价，订单最终价格以确定出游方案为准</p>
+		</div>
+		<div class="kong"></div>
+		<footer class="clearfix">
+			<div><p><span class="people">2</span><span>成人</span></p><p><span>团期</span><span>2016-01-28</span></p></div>
+			<div><a class="baoming" href="javascript:void(0)">下一步</a></div>
+		</footer>
+	</div>
+	<script src="../js/zepto.main.js"></script>
+	<script src="../js/touch.js"></script>
+	<script>
+		$(".sub").tap(function(){
+			var txt = parseFloat(this.parentNode.querySelector(".num").innerText);
+			var money = parseFloat(this.parentNode.parentNode.querySelector(".three").innerText);
+			if (txt > 0) {
+				txt = txt -1;
+			}
+			money = 2640*txt;
+			this.parentNode.querySelector(".num").innerText = txt;
+			this.parentNode.parentNode.querySelector(".three").innerText = money;
+		})
+		$(".add").tap(function(){
+			var txt = parseFloat(this.parentNode.querySelector(".num").innerText);
+			var money = parseFloat(this.parentNode.parentNode.querySelector(".three").innerText);
+			txt = txt + 1;
+			money = 2640*txt;
+			this.parentNode.querySelector(".num").innerText = txt;
+			this.parentNode.parentNode.querySelector(".three").innerText = money;
+		})
+		$(".cheng .sub").tap(function(){
+			var txt = this.parentNode.querySelector(".num").innerText;
+			document.querySelector("footer .people").innerText = txt;
+		})
+		$(".cheng .add").tap(function(){
+			var txt = this.parentNode.querySelector(".num").innerText;
+			document.querySelector("footer .people").innerText = txt;
+		})
+		$("nav a").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/details.html"
+		})
+		$(".baoming").tap(function(){
+			location.href = "C:/Users/xiaoyu/Desktop/自驾游项目/pages/tianxiedingdan.html"
+		})
+	</script>
+</body>
+</html>

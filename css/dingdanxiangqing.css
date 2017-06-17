@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #45afce;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+nav ul .fanhui{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+nav ul .name{
+	width: 4.4rem;
+}
+nav ul .name h3{
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+}
+nav ul .more{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+.zijia{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.zijia p{
+	width: 6.4rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+}
+.data{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.data .xianlu{
+	width: 6.4rem;
+	border-top: 1px solid #ccc;
+
+}
+.data .xianlu ul{
+	list-style: none;
+	width: 6.4rem;
+	padding-bottom: 0.2rem;
+}
+.data .xianlu ul li{
+	text-indent: 0.4rem;
+	font-size: 0.2rem;
+	line-height: 0.5rem;
+	width: 6.4rem;
+}
+.data .xianlu ul li:first-child{
+	text-indent: 0;
+	font-size: 0.22rem;
+	font-weight: 600;
+	
+}
+.data .xianlu ul li:first-child span{
+	color: #45afce;
+	font-size: 0.3rem;
+	font-weight: 800;
+}
+.data .feiyong ul li{
+	overflow: hidden;
+}
+.data .feiyong li p{
+	float: right;
+	margin-right: 1.5rem;
+}
+.data .feiyong ul li:nth-child(2){
+	border-bottom: 1px solid #ccc;
+}
+.data .feiyong ul li:nth-child(2) p{
+	margin-right: 1.7rem;
+}
+.data .fangan .one span{
+	text-indent: 0;
+	display: block;
+	float: right;	
+}
+.data .fangan .one span:first-child{
+	margin-right: 0.5rem;
+}
+.youke{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0.2rem;
+}

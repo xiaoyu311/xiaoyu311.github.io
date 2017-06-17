@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+}
+nav{
+	width: 6.4rem;
+	background-color: #50bbdb;
+	position: relative;
+}
+nav .dingwei{
+	font-size: 0.32rem;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.13rem;
+	padding: 0.1rem;
+}
+nav span{
+	display: block;
+	float: left;
+	font-size: 0.18rem;
+	margin-left: 0.75rem;
+	margin-top: 0.35rem;
+	color:#fff;
+}
+nav .love{
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-size: 0.24rem;
+	color: #fff;
+	width: 1.67rem;
+	line-height: 0.37rem;
+	text-align: center;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	border: 1px solid #fff;
+}
+nav a{
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+nav a:nth-child(3){
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+nav a:nth-child(4){
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+nav .xiangji{
+	font-size: 0.32rem;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.15rem;
+	right: 0.13rem;
+	padding: 0.1rem;
+}
+.banner{
+	width: 6.4rem;
+	position: relative;
+}
+.banner .swiper-container .one{
+	height: 3rem;
+}
+.banner img{
+	width: 6.4rem;
+}
+.banner ul{
+	list-style: none;
+}
+.banner ul .one{
+	width: 0.4rem;
+	height: 0.4rem;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 5;
+	bottom: 0.2rem;
+	left: 2.5rem	;
+}
+.banner ul .two{
+	width: 0.4rem;
+	height: 0.4rem;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 5;
+	bottom: 0.2rem;
+	left: 3rem	;
+}
+.banner ul .three{
+	width: 0.4rem;
+	height: 0.4rem;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 5;
+	bottom: 0.2rem;
+	left: 3.5rem	;
+}
+.search{
+	width: 6.4rem;
+	position: relative;
+}
+.search input{
+	display: block;
+	width: 3.4rem;
+	height: 0.4rem;
+	outline: none;
+	margin: 0 auto;
+	border: 2px solid #2dc6f4;
+	border-radius: 0.2rem;
+	margin-top: 0.4rem;
+	text-indent: 8px;
+	font-size: 0.25rem;
+}
+.search a{
+	font-size: 0.32rem;
+	text-decoration: none;
+	color:#2dc6f4;
+	position: absolute;
+	top: 2px;
+	left: 4.4rem;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+.more{
+	width: 6.4rem;
+}
+.more .top{
+	width: 6rem;
+	margin: 0 auto;
+}
+.top .left{
+	width: 2.4rem;
+	height: 1px;
+	background-color: #938e8e;
+	margin-top: 0.39rem;
+	float: left;
+}
+.top img{
+	width: 0.1rem;
+	display: block;
+	float: left;
+	margin-top: 0.33rem;
+}
+.top span{
+	display: block;
+	float: left;
+	font-size: 0.28rem;
+	width: 0.73rem;
+	line-height: 0.79rem;
+	text-align: center;
+}
+.top .right{
+	width: 2.4rem;
+	height: 1px;
+	background-color: #938e8e;
+	margin-top: 0.39rem;
+	float: left;
+}
+.show{
+	width: 6.4rem;
+}
+.show_one{
+	width: 6.4rem;
+	background-image: url(../images/show_1APP_96.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.show_one .pic h3{
+	font-size: 0.35rem;
+	line-height: 0.6rem;
+	background-color: rgba(109,137,162,0.7);
+	text-indent: 0.3rem;
+	color: #fff;
+}
+.show_one .pic p{
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	background-color: rgba(109,137,162,0.7);
+	text-indent: 0.3rem;
+	color: #fff;
+	margin-top: 2rem;
+}
+.show_one>p{
+	font-size: 0.26rem;
+	padding-top: 0.12rem;
+	padding-bottom: 0.3rem;
+	text-indent: 0.3rem;
+}
+.show_one ul{
+	width: 1rem;
+	border: 4px solid #fff;
+	background-color: #ed6215;
+	position: absolute;
+	border-radius: 0.55rem;
+	list-style: none;
+	bottom: 0.3rem;
+	right: 0rem;
+}
+.show_one ul li{
+	font-size: 0.12rem;
+	color: #fff;
+	text-align: center;
+}
+.show_one ul li span{
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+}
+.show_one ul li:first-child{
+	border-bottom: 1px solid #ecd4c7;
+}
+.show_one ul li:last-child{
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+}
+.more .gengduo{
+	font-size: 0.17rem;
+	width: 6.4rem;
+	background-color: #f1f1f1;
+}
+.more .gengduo a{
+	display: block;
+	width: 6.4rem;
+	color: #f15f0e;
+	text-align: center;
+	text-decoration: none;
+	line-height: 0.6rem;
+}
+.more .gengduo a i{
+	margin-left: 8px;
+}
+.wrap .more:nth-child(5) .show_one:nth-child(2){
+	background-image: url(../images/show.jpg);
+}
+.wrap .more:nth-child(5) .show_one:nth-child(3){
+	background-image: url(../images/show_1APP_06.jpg);
+}
+.wrap .more:nth-child(5) .show_one:nth-child(4){
+	background-image: url(../images/show_1APP_08.jpg);
+}
+footer{
+	width: 6.4rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	float: left;
+	padding-top: 0.15rem;
+	padding-bottom: 0.15rem;
+	font-size: 0.24rem;
+	background-color: #fff;
+}
+footer ul li a{
+	text-decoration: none;
+	display: block;
+	width: 1.6rem;
+	text-align: center;
+	line-height: 0.33rem;
+	color: #000;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+.wrap footer ul li a i{
+	font-size: 0.3rem;
+}
+.under{
+	height: 0.96rem;
+}
+.banner ul .active{
+	background-color: #53badb;
+}
+nav .background{
+	background-image: url(../images/sanjiao_1APP_03.jpg);
+	background-repeat: no-repeat;
+	background-position: 1.5rem 0.2rem;
+	background-color: #fff;
+	color: #50bbdb;
+}
+footer ul li .col{
+	color: #50bbdb;
+}

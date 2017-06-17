@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+	position: relative;
+}
+nav{
+	width: 6.4rem;
+	background-color: #40b7db;
+}
+nav a{
+	position: absolute;
+	font-size: 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	top: 7px;
+	left: 0.3rem;
+}
+nav span{
+	display: block;
+	width: 6.4rem;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.35rem;
+	color: #fff;
+}
+.fenlei{
+	width: 6.4rem;
+	border-bottom: 0.14rem solid #f1f1f1;
+}
+.fenlei ul{
+	list-style: none;
+	width: 6.4rem;
+	background-color: #fff;
+}
+.fenlei ul li{
+	font-size: 0.24rem;
+	text-align: center;
+	float: left;
+	line-height: 0.75rem;
+	width: 3.19rem;
+	background-image: url(../images/sanjiao.png);
+	background-repeat: no-repeat;
+	background-position: 2.3rem 0.3rem;
+	position: relative;
+}
+.fenlei ul li img{
+	display: block;
+	width: 0.2rem;
+	z-index: 5;
+	position: absolute;
+	top: 0.62rem;
+	left: 1.5rem;
+
+}
+.fenlei ul li:first-child{
+	border-right: 1px solid #f1f1f1;
+}
+.paixu{
+	width: 6.4rem;
+	position: absolute;
+	top: 1.6rem;
+}
+.paixu .two{
+	width: 6.4rem;
+	background-color: rgba(38,38,38,0.3);
+	height: 8.35rem;
+}
+.paixu .one{
+	width: 6.4rem;
+	background-color: #fff;
+}
+.paixu_two .two{
+	width: 6.4rem;
+	height: 6.2rem;
+	background-color: rgba(38,38,38,0.3);
+}
+.paixu img{
+	display: block;
+	width: 0.2rem;
+}
+.paixu p{
+	width: 6rem;
+	background-color: #fff;
+	line-height: 0.7rem;
+	font-size: 0.24rem;
+	color: #929292;
+	border-top: 1px solid #929292;
+	margin: 0 auto;
+}
+.show{
+	width: 6.4rem;
+}
+.dingdan{
+	width: 6.4rem;
+	background-color: #fff;
+	border-bottom: 0.14rem solid #f1f1f1;
+}
+.dingdan .dingdan_one{
+	width: 6rem;
+	margin: 0 auto;
+}
+.dingdan .dingdan_one .dingdanhao{
+	font-size: 0.18rem;
+	line-height: 0.34rem;
+	color: #dcdcdc;
+	border-bottom: 1px dashed #f1f1f1;
+}
+.dingdan .dingdan_one .chunjie{
+	font-size: 0.24rem;
+	line-height: 0.56rem;
+}
+.dingdan .dingdan_one .money{
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	color: #bcbcbc;
+}
+.dingdan .dingdan_one .money .one{
+	font-size: 0.12rem;
+	color: #f39b7a;
+}
+.dingdan .dingdan_one .money .two{
+	color: #f39b7a;
+}
+.dingdan .quxiao{
+	width: 6.4rem;
+	border-top: 1px solid  #e6e6e6;
+}
+.dingdan .quxiao .one{
+	color: #f29876;
+	display: block;
+	width: 1rem;
+	text-indent: 0.2rem;
+	float: left;
+	line-height: 0.56rem;
+	font-size: 0.24rem;
+}
+.dingdan .quxiao .two{
+	display: block;
+	width: 0.86rem;
+	text-indent: 0.1rem;
+	border: 1px solid #e6e6e6;
+	float: right;
+	margin-top: 0.1rem;
+	margin-right: 0.3rem;
+	line-height: 0.35rem;
+	font-size: 0.24rem;
+	background-image: url(../images/sanjiao.png);
+	background-repeat: no-repeat;
+	background-position: 0.6rem 0.1rem;
+}
+.wrap .bg{
+	display: none;
+}

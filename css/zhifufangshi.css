@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+.clearfix:before,
+	.clearfix:after {       
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0;
+}
+.wrap{
+	width: 6.4rem;
+	background-color: #ebebeb;
+}
+nav{
+	width: 6.4rem;
+	background-color: #45afce;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+nav ul .fanhui{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+nav ul .name{
+	width: 4.4rem;
+}
+nav ul .name h3{
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+}
+nav ul .more{
+	width: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.88rem;
+}
+.zonge{
+	width: 6.4rem;
+	background: #fff;
+}
+.zonge p{
+	width: 5.4rem;
+	margin: 0 auto;
+	font-size: 0.26rem;
+	line-height: 1rem;
+	color: #f4a866;
+}
+.fangshi{
+	width: 6.4rem;
+	position: relative;
+	background-color: #fff;
+	margin-top: 0.2rem;
+}
+.fangshi ul{
+	width: 5.7rem;
+	margin-left: 0.5rem;
+	list-style: none;
+}
+.fangshi ul li{
+	width: 5.7rem;
+	border-bottom: 1px solid #ebebeb;
+	overflow: hidden;
+}
+.fangshi ul li img{
+	display: block;
+	width: 0.5rem;
+	float: left;
+	margin-top: 0.28rem;
+}
+.fangshi ul li span{
+	display: block;
+	float: left;
+	font-size: 0.26rem;
+	margin-left: 0.2rem;
+	line-height: 1rem;
+}
+.fangshi ul li>a{
+	display: block;
+	float: right;
+	text-decoration: none;
+	width: 0.3rem;
+	height: 0.3rem;
+	border:1px solid #ebebeb;
+	border-radius: 0.15rem;
+	margin-top: 0.35rem;
+}
+.fangshi ul li>a>span{
+	display: block;
+	text-decoration: none;
+	background-color: #45afce;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 0.1rem;
+	margin: 3px;
+}
+.fangshi ul li .tuijian{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
+footer{
+	width: 6.4rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #ebebeb;
+}
+footer div{
+	width: 3.4rem;
+	float: left;
+}
+footer .fukuan{
+	width:3.6rem;
+	color: #ef9339;
+	font-size: 0.26rem;
+	line-height: 0.5rem;
+	text-indent: 0.2rem;
+}
+footer .time{
+	width: 3.6rem;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	text-indent: 0.2rem;
+}
+footer a{
+	display: block;
+	width: 1.9rem;
+	float: right;
+	text-decoration: none;
+	font-size: 0.28rem;
+	color: #fff;
+	background-color: #50bbdb;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+	border-radius: 5px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
