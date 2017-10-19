@@ -55,6 +55,7 @@
        });
        wx.ready(function(res){
          $(".two").click(function() {
+           alert('调用')
            wx.checkJsApi({
              jsApiList : ['scanQRCode'],
              success : function(res) {
